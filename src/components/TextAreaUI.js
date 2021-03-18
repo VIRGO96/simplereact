@@ -47,6 +47,9 @@ class TextAreaUI extends Component {
                 </Button>
               </Col>
               <Col>
+                <p style={{ background: "yellow" }}>
+                  Click on a word to load Wiki info
+                </p>
                 <p>
                   {" "}
                   {this.state.text_content.split(" ").map((item) => {
